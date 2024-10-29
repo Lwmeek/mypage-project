@@ -1,32 +1,33 @@
-import { Box, Container, Section, Flex } from "@radix-ui/themes";
+import { Box, Container, Section, Flex, Button } from "@radix-ui/themes";
 import { ShadowIcon } from "@radix-ui/react-icons";
 
 function App() {
 	return (
 		<>
-			<Box style={{ background: "gray" }} height="100vh">
+			<Box style={{ background: "black" }} height="100vh">
 				<Section
-					mx="4"
+					px="4"
 					py="1"
 					style={{
 						backgroundColor: "transparent",
 						color: "whitesmoke",
-						borderBottom: "solid 1px white",
+						borderBottom: "solid .5px white",
+						position: "sticky",
 					}}
 				>
 					<Flex align="center" gap="9" justify="start">
 						<ShadowIcon />
-						<Flex gap="4">
+						<Flex gap="4" align="center">
 							<p>Home</p>
 							<p>About</p>
 							<p>Contact</p>
-							<p>Connect</p>
+							<Button variant="soft">Connect</Button>
 						</Flex>
-						<img
+						{/*<img
 							src="src/images/sam.jpg"
 							alt="Samurai shadow"
 							className="samurai"
-						/>
+						/> */}
 					</Flex>
 				</Section>
 				<Container>
