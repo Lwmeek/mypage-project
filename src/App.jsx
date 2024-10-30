@@ -23,19 +23,15 @@ function App() {
 							<p>Contact</p>
 							<Button variant="soft">Connect</Button>
 						</Flex>
-						{/*<img
-							src="src/images/sam.jpg"
+						<img
+							src="src/images/sam.png"
 							alt="Samurai shadow"
 							className="samurai"
-						/> */}
+						/> 
 					</Flex>
 				</Section>
 				<Container>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-						rem, nostrum accusantium saepe omnis tempore soluta dolor doloribus
-						maiores, ducimus accusamus eos non, laudantium odit.
-					</p>
+					
 				</Container>
 			</Box>
 		</>
