@@ -1,13 +1,3 @@
-
 body {
-    margin: 0;
-}
-.samurai {
-    background-color: black;
-    color: blueviolet;
-    width: 300px;
-    position: absolute;
-    transform: scaleX(-1);
-    right: 2px;
-    top: 40px;
+	margin: 0;
 }

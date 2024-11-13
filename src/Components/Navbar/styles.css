@@ -1,0 +1,27 @@
+.navbar-links-group2 {
+	color: white;
+	background-color: black;
+	height: 25vh;
+	overflow: hidden;
+}
+.navbar-link-items {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: larger;
+	color: white;
+	transition: all 0.3s ease-in-out;
+}
+.navbar-link-items:hover {
+	opacity: 0.5;
+}
+@media screen and (max-width: 599px) {
+	.navbar-links-group1 {
+		visibility: hidden;
+	}
+}
+@media screen and (max-width: 580px) {
+	.navbar-links-group1 {
+		visibility: hidden;
+		position: absolute;
+	}
+}
